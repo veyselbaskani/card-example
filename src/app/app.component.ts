@@ -9,5 +9,24 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'card';
+  posts = [
+    {
+      title: 'Camping',
+      imageUrl: '/assets/images/camping.jpg',
+      username: 'cbdag',
+      content: 'Kampa gençler'
+    },
+    {
+      title: 'Tırmanış',
+      imageUrl: 'assets/images/paragliding.jpg',
+      username: 'cbuludag',
+      content: 'Bugünde iyi tırmandım'
+    },
+    {
+      title: 'Surf',
+      imageUrl: 'assets/images/surf.jpg',
+      username: 'cbdoga',
+      content: 'Hadi biraz surf yapalım'
+    }
+  ];
 }
